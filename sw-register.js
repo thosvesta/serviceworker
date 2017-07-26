@@ -3,7 +3,7 @@
 
 if ('serviceWorker' in navigator) {
 	// register the Service Worker, must be in the root directory to have site-wide scope...
-	navigator.serviceWorker.register('/serviceworker-min.js')
+	navigator.serviceWorker.register('/serviceworker.js')
 		.then(function(registration) {
 			// registration succeeded :-)
 			//console.log('ServiceWorker registration succeeded, with this scope: ', registration.scope);
