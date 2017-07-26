@@ -1,11 +1,12 @@
-var version = 'v1.1.0:';
+var version = 'v1';
 
-var theme_path = 'wp-content/themes/justmarkup.com/';
+var theme_path = 'wp-content/themes/kallyas/';
+var include_path = '/wp-includes/'
 
 var offlineFundamentals = [
 	'./',
-	theme_path + 'dist/js/main.min.js',
-	theme_path + 'dist/js/prism.min.js',
+	theme_path + 'js/plugins.min.js',
+	theme_path + 'js/znscript.min.js',
 	theme_path + 'offline.html'
 ];
 
